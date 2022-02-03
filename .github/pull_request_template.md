@@ -22,4 +22,4 @@ _If applicable, please upload a screenshot or screen recording of the applicatio
 
 <br>
 
-Fixes #(issue)
+Resolves #(issue)
