@@ -16,6 +16,11 @@ _..._
 #### What is the expected outcome?
 _..._
 
+### What other issues does this depend on?
+- #(issue)
+- #(issue)
+- #(issue)
+
 <br>
 
 ## Designs
@@ -44,3 +49,4 @@ _Engineering: please include detailed testing instructions for QA._
 
 ## Jira Ticket
 _Please insert the link to the respective JIRA ticket here._
+
