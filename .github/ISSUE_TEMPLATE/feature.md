@@ -16,7 +16,7 @@ _..._
 #### What is the expected outcome?
 _..._
 
-### What other issues does this depend on?
+#### What other issues does this depend on?
 - #(issue)
 - #(issue)
 - #(issue)
