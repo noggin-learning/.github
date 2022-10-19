@@ -9,6 +9,9 @@ body:
       description: Please provide a description of the feature that is to be implemented, why we are building it and what the expected outcome is.
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: "<br>"
   - type: textarea
     id: dependencies
     attributes:
@@ -52,7 +55,7 @@ body:
       label: Testing instructions
       description: Please provide details testing instructions for the QA team.
     validations:
-      required: true
+      required: false
   - type: input
     id: jira-ticket
     attributes:
