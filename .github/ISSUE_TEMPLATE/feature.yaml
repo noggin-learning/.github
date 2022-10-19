@@ -1,0 +1,66 @@
+name: 🚧 Feature
+description: Use this option for features and stories.
+title: ""
+labels: ["enhancement"]
+
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Please provide a description of the feature that is to be implemented, why we are building it and what the expected outcome is.
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: What other issues does this depend on?
+      description: Please provide a list of tickets that are required to be completed before work on this feature can begin.
+      placeholder: |
+        - #(issue)
+        - #(issue)
+        - #(issue)
+    validations:
+      required: false
+  - type: input
+    id: designs
+    attributes:
+      label: Designs
+      description: Please provide a link to the designs for reference.
+      placeholder: https://www.figma.com/file/…
+    validations:
+      required: false
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Please provide a checklist of the acceptance criteria for this feature.
+      placeholder: |
+        - [ ] …
+        - [ ] …
+        - [ ] …
+    validations:
+      required: true
+  - type: textarea
+    id: technical-implementation
+    attributes:
+      label: Technical Implementation
+      description: If applicable, please provide description of the technical implementation or a link to the specifications document.
+    validations:
+      required: false
+  - type: textarea
+    id: testing-instructions
+    attributes:
+      label: Testing instructions
+      description: Please provide details testing instructions for the QA team.
+    validations:
+      required: true
+  - type: input
+    id: jira-ticket
+    attributes:
+      label: Jira Ticket
+      description: Please provide a link to corresponding Jira ticket.
+      placeholder: https://paramount.atlassian.net/jira/software/c/projects/NOGGIN/…
+    validations:
+      required: false
+
