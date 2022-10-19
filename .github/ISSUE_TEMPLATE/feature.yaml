@@ -38,6 +38,16 @@ body:
     attributes:
       value: "<br>"
   - type: textarea
+    id: technical-implementation
+    attributes:
+      label: Technical Implementation
+      description: If applicable, please provide description of the technical implementation or a link to the specifications document.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: "<br>"
+  - type: textarea
     id: acceptance-criteria
     attributes:
       label: Acceptance Criteria
@@ -46,18 +56,10 @@ body:
         - [ ] …
         - [ ] …
         - [ ] …
+    value: |
+        - [ ] 
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: "<br>"
-  - type: textarea
-    id: technical-implementation
-    attributes:
-      label: Technical Implementation
-      description: If applicable, please provide description of the technical implementation or a link to the specifications document.
-    validations:
-      required: false
   - type: markdown
     attributes:
       value: "<br>"
