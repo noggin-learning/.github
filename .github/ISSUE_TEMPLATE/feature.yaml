@@ -1,8 +1,6 @@
 name: 🚧 Feature
 description: Use this option for features and stories.
-title: ""
 labels: ["enhancement"]
-
 body:
   - type: textarea
     id: summary
