@@ -23,6 +23,9 @@ body:
         - #(issue)
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: "<br>"
   - type: input
     id: designs
     attributes:
@@ -31,6 +34,9 @@ body:
       placeholder: https://www.figma.com/file/…
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: "<br>"
   - type: textarea
     id: acceptance-criteria
     attributes:
@@ -42,6 +48,9 @@ body:
         - [ ] …
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: "<br>"
   - type: textarea
     id: technical-implementation
     attributes:
@@ -49,6 +58,9 @@ body:
       description: If applicable, please provide description of the technical implementation or a link to the specifications document.
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: "<br>"
   - type: textarea
     id: testing-instructions
     attributes:
@@ -56,6 +68,9 @@ body:
       description: Please provide details testing instructions for the QA team.
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: "<br>"
   - type: input
     id: jira-ticket
     attributes:
