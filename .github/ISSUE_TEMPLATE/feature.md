@@ -1,6 +1,7 @@
 ---
 name: 🚧 Feature
 about: Use this option for features and stories.
+title: ""
 labels: enhancement
 ---
 
