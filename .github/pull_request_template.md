@@ -5,7 +5,7 @@ motivation and context, as well as list any dependencies that are required for t
 <br>
 
 ## Additional Context
-_If applicable, please upload a screenshot or screen recording of the application's frontend showing implemented changes._
+_If applicable, please upload a screenshot or screen recording of the application showing the implemented changes._
 
 <br>
 
@@ -17,9 +17,9 @@ _If applicable, please upload a screenshot or screen recording of the applicatio
 - [ ] I have added tests and verified that my changes don't reduce the total code coverage score
 - [ ] I have written the PR title in the past tense (i.e. `Implemented xyz…`) 
 - [ ] I have tagged this PR with one of the required tags: `enhancement`, `bug`, `documentation` or `dependencies`
-- [ ] I have added detailed QA instructions to the ticket on both GitHub and Jira
-- [ ] I have referenced the corresponding GitHub issues at the bottom of this PR
+- [ ] I have added detailed QA instructions to the corresponding ticket
+- [ ] I have referenced the corresponding ticket number at the bottom of this PR
 
 <br>
 
-Resolves #(issue)
+Resolves (issue)
